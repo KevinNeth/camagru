@@ -1,0 +1,112 @@
+/*Default*/
+
+body {
+	margin: 0;
+	paddding: 0;
+}
+
+#Header {
+	width: 100%;
+	height: 90px;
+}
+
+#Logo {
+	width: 300px;
+	height: 90px;
+}
+
+/*Form*/
+
+#sign {
+	width: 200px;
+	height: 80px;
+}
+
+#divsign {
+	display: inline;
+	text-align: center;
+	width: 50%;
+}
+
+/* Test */
+
+.test > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+.test > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+.test > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  border:2px solid #A9E2F3;
+}
+
+.test2 > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+.test2 > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+.test2 > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  border:2px solid #A9E2F3;
+}
+
+.test3 > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+.test3 > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+.test3 > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  border:2px solid #A9E2F3;
+}
+
+input[type='file'] {
+    border: 3px dashed #999;
+    padding: 140px 50px 10px 50px;
+    cursor: move;
+    position:relative;
+}
+input[type='file']:before {
+    content: "drag & drop your files here";
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 40px;
+    margin: -25px 0 0 -100px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #999;
+}
+
+#preview_img
+{
+  width: 500px;
+  height: 375px;
+}
+
+#main
+{
+  width: 70%;
+  left: 5%;
+  position: absolute;
+}
+
+#side
+{
+  width: 30%;
+  right: 5%;
+  position: absolute;
+}
+
+#photo {
+  width: 100px;
+}
