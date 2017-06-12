@@ -7,7 +7,7 @@ class FormController extends Controller {
 	// }
 	public function form() {
 		if ($_SESSION['login']) {
-			header('Location: http://localhost:8080/' . $this->req->path . '/gallery');
+			header('Location: http://localhost:8080/' . $this->req->path . '/gallery/view');
 		}
 		else {
 			$this->render('form');

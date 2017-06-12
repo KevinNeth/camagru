@@ -15,4 +15,5 @@ require 'model/SignupModel.class.php';
 require 'model/SigninModel.class.php';
 require 'model/CamModel.class.php';
 require 'model/DeleteModel.class.php';
+require 'model/GalleryModel.class.php';
 ?>

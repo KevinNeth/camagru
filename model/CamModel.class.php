@@ -6,7 +6,7 @@ class CamModel extends Model {
 	}
 
 	public function takepic($login) {
-		$allPic = $this->query("SELECT path_picture FROM picture WHERE login = '$login' ORDER BY `date` DESC;", Users);
+		$allPic = $this->query("SELECT path_picture FROM picture WHERE login = '$login' ORDER BY `date` DESC;", Picture);
 		return($allPic);
 	}
 }
